@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(143,201,163);
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
