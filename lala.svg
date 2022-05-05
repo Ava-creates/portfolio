@@ -1,33 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tree</title>
-    <link rel="stylesheet" href="tree.css">
-    <script src="tree.js"></script>
-</head>
-<body>
-    <div>
-        <h1>Nice to meet you, I am Avani!
-        </h1>
-        <h2>
-            You can know more about me by exploring the tree of projects.
-        </h2>
-
-        <div id="sakura">
-        <svg version="1.1" id="lala" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="2800px"
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="2800px"
 	 height="2800px" viewBox="0 0 2800 2800" style="enable-background:new 0 0 2800 2800;" xml:space="preserve">
-    <style type="text/css">
+<style type="text/css">
 	.st0{fill:#c8e1cc;}
 	.st1{fill:#F5AEBB;}
 	.st2{fill:#94AFA7;}
 	.st3{fill:#8B847E;}
 	.st4{fill:#6B6B67;}
 	.st5{fill:#F8CCD7;}
-    </style>
-    <g id="Capa_2">
+</style>
+<g id="Capa_2">
 	<g>
 		<g>
 			<g>
@@ -36,8 +19,8 @@
 			</g>
 		</g>
 	</g>
-    </g>
-    <g id="Capa_4">
+</g>
+<g id="Capa_4">
 	<g>
 		<path class="st1" d="M996.7,2342.5c5.5-0.1,11.5,0.2,15.6,3.9c1.1,1,2.1,2.7,1.4,4c-0.3,0.6-1,1-1.6,1.4
 			c-8.5,5.2-37.8,18.3-46.5,8.6C953.2,2346.6,989.3,2342.7,996.7,2342.5z"/>
@@ -2595,12 +2578,5 @@
 				c-9.2,3.7-40.3,11.8-47.3,0.7C1632.2,2298.9,1668.5,2301.1,1675.8,2302.2z"/>
 		</g>
 	</g>
-    </g>
-        </svg>
-
-
-
-        </div>
-    </div>
-</body>
-</html>
+</g>
+</svg>

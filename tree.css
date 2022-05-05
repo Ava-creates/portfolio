@@ -6,7 +6,17 @@ h1{
 body{
     display: flex;
     justify-content: center;
-    background-color: rgb(143,201,163);
+    background-color: #e7f5fe;
     font-family: 'Nanum Gothic', sans-serif;
 }
+
+#lala
+{
+    position: relative;
+    left:10vw;
+    justify-content: center;
+    width: 600px;
+    height: 900px;
+}
+
 
