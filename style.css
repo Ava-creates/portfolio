@@ -1,0 +1,175 @@
+@font-face {
+    font-family: g;
+    src: url("font/Joyfully-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: tw;
+    src: url("tw2.ttf") format("opentype");
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: 1fr 6fr; */
+    grid-template-rows: 30vh 70vh;
+    margin: 0;
+    padding: 0;
+
+  }
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: tw;
+    display: flex;
+    justify-content: center;
+    background-color: #F8F0E3;
+    background-image: url("img2.png");
+    object-fit: none;
+    background-size: 1450px 900px;
+
+    font-size: 3vw;
+
+    
+    overflow: hidden; 
+    text-overflow: clip;
+
+}
+
+
+.heading {
+    position: absolute;
+
+    color:beige;
+ 
+    display: block;
+    width: max-content;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    bottom: -6vh;
+    left: 2vw;
+    
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+
+}
+
+.heading img{
+    height: 20vh;
+}
+
+.grid-item3
+{
+    text-align:center;
+    font-family: tw;
+    color: #5C4033;
+    
+}
+
+.grid-item3 img{
+    position: relative;
+    top: -10vh;
+    right: -3vw;
+}
+.h {
+    font-size: 40px;
+     position: absolute;
+    top: 3.5vh;
+    left: 5vw;
+    width: max-content;
+    height: max-content;
+}
+
+
+.about-text{
+    position: absolute;
+    right: 1vw;
+    top: 6vh;
+    font-size: 30px;
+}
+
+.about-text-2
+{
+    font-family:tw;
+    position: absolute;
+    right: 0vw;
+    top: 10vh;
+    font-size: 20px;
+    max-width: 20vw;
+    display: none;
+    margin: 1vh;
+}
+
+.links {
+    font-family: tw;
+    font-size: 2vw;
+    position: relative;
+    left: 1vw;
+    top: -1vh;
+    
+    
+    color: #5C4033;
+}
+
+.links img{
+    
+    position: relative;
+    top: 2vh;
+    left: -1vw;
+    
+    width: 40vw;
+
+}
+.link {
+    font-size: 30px;
+    font-family: tw;
+    position: relative;
+    top: -35vh;
+    left: 4vw;
+    margin: 0 2vh;
+    max-width: 35vw ;
+    
+}
+.link div{
+    margin: 3vh 0;
+}
+
+#link1::after {
+    
+    margin-left: 5px;
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  #link2::after {
+    
+    margin-left: 5px;
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  #link3::after {
+    
+    margin-left: 5px;
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
