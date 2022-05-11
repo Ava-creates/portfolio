@@ -272,12 +272,11 @@ body{
     .link{
       font-size: 20px;
       position:absolute;
-       top: 85vh;
+       top: 80vh;
       left: 10vw;
       font-family: tw;
       background-color: blanchedalmond;
       width: max-content;
-      padding: 20px;
 
     }
 /* 
